@@ -20,7 +20,7 @@
 }
 .centro{
     display: flex;
-    
+
 }
 
 .columna {
@@ -38,15 +38,18 @@
     float: left;
     width: 660px;
     margin: 20px;
+    padding: 5px;
 }
 
 
 .seccion .articulo{
 	display: inline-block;
 	background: #FFFBCC;
-    border: 1px solid #999999;
+   
     padding: 20px;
     margin-bottom: 15px;
+    border-radius: 10px;
+
 
 }
 
