@@ -3,23 +3,41 @@
 	padding: 0px;
 
 }
-.content{
+.content
+{
 	
 	width: 960px;
     margin: 15px auto;
-    text-align: left;
+    
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
      box-sizing: border-box;
-
 }
 .cabecera{
 	background: brown;
-    border: 1px solid #999999;
-    padding: 20px;
+    border: 1px solid black;
+    padding: 1em;
 }
+ nav{
+    padding:0.5em; 
+    margin-bottom: 0.5em;
+    border: 2px solid white ;
+    background: teal;
+}
+nav ul li {
+   display: inline-block;
+}
+a{
+      list-style: none;
+       color: white;    ¿
+ }
+ a:hover{
+    color: lime;
+ }
+
 .centro{
     display: flex;
+
 
 }
 
@@ -28,7 +46,7 @@
    float: left;
     width: 220px;
     margin: 3px auto;
-    padding: 20px;
+    padding: 0.5em;
     background: blue;
  }
 
@@ -38,16 +56,16 @@
     float: left;
     width: 660px;
     margin: 20px;
-    padding: 5px;
+    padding: 0.5em;
 }
 
 
 .seccion .articulo{
+    width: 400px;
 	display: inline-block;
 	background: #FFFBCC;
-   
-    padding: 20px;
-    margin-bottom: 15px;
+    padding: 0.5em;
+    margin: 1em;
     border-radius: 10px;
 
 
@@ -60,15 +78,14 @@
     text-align: center;
     padding: 20px;
     border-top: 2px solid #999999;
+    margin-top: 1em;
+    padding: 0.5em;
 }
-h1{
+h1, h2{
 	color: white;
 }
-h2 {
-    color: white;
-}
 
-h4{ 
+.articulo h4{ 
 
-color: black ; 
+color: orange ; 
 }

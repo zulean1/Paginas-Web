@@ -1,33 +1,37 @@
-body {
-  
-}
+
+
 header {
   
     text-align: center;
-    border: 1px solid yellow;
-    background: orange;
+    border: 1px solid black;
+    background: silver;
+
    
 }
 
-h1{
-    color: white;
-    font: cursive;
- }
+
  nav{
   
-    border: 1px solid orange;
-    background: yellow;
+    border: 2px solid white ;
+    background: teal;
+    padding: 0.5em
+
  }
 
- nav li {
+ nav ul li {
+   
    display: inline-block;
- 
+
  }
- nav li a{
+a{
 
       list-style: none;
+       color: white;
       
 
+ }
+ a:hover{
+    color: lime;
  }
  aside {
     
@@ -35,10 +39,10 @@ h1{
     width: 220px;
     margin: 3px auto;
     padding: 20px;
-    background: red;
+    background: olive;
  }
 section {
-
+     padding: 10px;
     background: brown;
     float: left;
     width: 660px;
@@ -47,12 +51,17 @@ section {
 
 
 section article{
+    width: 500px;
     display: inline-block;
     background: #FFFBCC;
-    border: 1px solid #999999;
-    padding: 20px;
-    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
 
+
+}
+.parrafo{
+    color : white;
 }
 
 
@@ -63,9 +72,17 @@ footer{
     padding: 20px;
     border-top: 2px solid #999999;
 }
-h2{
-    color: green;
+h1,h2{
+   
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
+h1{color: teal;}
+h2{color: aqua;}
+
 p{
-    color: blue;
+    color: #8A8E27;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2ex;
 }
