@@ -3,9 +3,7 @@
 	padding: 0px;
    
 }
-body{
-      
-}
+
 .content
 {
 	
@@ -17,7 +15,7 @@ body{
      box-sizing: border-box;
 }
 .cabecera{
-	background: brown;
+
    
     padding: 1em;
 }
@@ -25,6 +23,7 @@ body{
     padding:0.5em; 
     margin-bottom: 0.5em;
     border-bottom: 1px solid #004C99;
+    background: navy; 
     
 }
 nav ul li {
@@ -32,10 +31,10 @@ nav ul li {
 }
 a{
       list-style: none;
-       color: navy;    
+       color: white;    
  }
  a:hover{
-    color: lime;
+    color: black;
  }
 
 .centro{
@@ -80,7 +79,7 @@ a{
     width: 220px;
     margin: 3px auto;
     padding: 0.5em;
-   border: 1px solid #CC6600;
+    border: 1px solid #CC6600;
    
  }
 
@@ -96,7 +95,7 @@ a{
     padding: 0.5em;
 }
 h1{
-	color: white;
+	color: orange;
 }
 .acerca h2{
     background-color: #DB905C;
