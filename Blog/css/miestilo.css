@@ -4,21 +4,22 @@
    
 }
 
-.content
-{
+.content {
 	
 	width: 960px;
     margin: 20px auto;
-     border: 1px solid blue;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
      box-sizing: border-box;
 }
+
 .cabecera{
 
    
     padding: 1em;
+    background: blue;
 }
+
  nav{
     padding:0.5em; 
     margin-bottom: 0.5em;
@@ -26,20 +27,22 @@
     background: navy; 
     
 }
+
 nav ul li {
    display: inline-block;
 }
+
 a{
       list-style: none;
        color: white;    
  }
+
  a:hover{
-    color: black;
+    color: orange;
  }
 
 .centro{
     display: flex;
-
 
 }
 
@@ -55,7 +58,7 @@ a{
 
 .seccion {
 
-    background: brown;
+    background: beige;
     float: left;
     width: 660px;
     margin: 20px;
@@ -73,6 +76,7 @@ a{
 
 
 }
+
 .acerca{
     
    float: left;
@@ -94,9 +98,11 @@ a{
     margin-top: 1em;
     padding: 0.5em;
 }
+
 h1{
 	color: orange;
 }
+
 .acerca h2{
     background-color: #DB905C;
     padding: .2em;
