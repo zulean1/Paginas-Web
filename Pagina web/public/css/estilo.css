@@ -1,39 +1,33 @@
-
-
-header {
-  
-    text-align: center;
-    border: 1px solid black;
-    background: silver;
-
-   
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-
- nav{
+.cabecera{
   
+    text-align: center;
+    border-bottom: 1px solid gray;
+    background: silver;
+}
+ .nav{ 
     border: 2px solid white ;
     background: teal;
     padding: 0.5em
-
  }
-
- nav ul li {
+ .nav .nav-ul .nav-items {
    
    display: inline-block;
-
  }
-a{
 
+a{
       list-style: none;
        color: white;
-      
-
  }
+
  a:hover{
     color: lime;
  }
- aside {
+ .sidebar {
     
    float: left;
     width: 220px;
@@ -57,13 +51,10 @@ section article{
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
-
-
 }
 .parrafo{
     color : white;
 }
-
 
 footer{
     background: orange;
