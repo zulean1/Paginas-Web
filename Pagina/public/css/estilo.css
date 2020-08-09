@@ -6,68 +6,84 @@
 .cabecera{
   
     text-align: center;
-    border-bottom: 1px solid gray;
-    background: silver;
+    border: 1px solid black;
+    background: white;
+    height: 70px;
+}
+.content{
+    display: flex;
 }
  .nav{ 
-    border: 2px solid white ;
-    background: teal;
-    padding: 0.5em
+    border-bottom: 1px solid beige;
+    background: gray;
+    padding: 0.5em;
+    height: 40px;
+
  }
  .nav .nav-ul .nav-items {
    
    display: inline-block;
+
  }
 
 a{
-      list-style: none;
+      
+       list-style: none;
        color: white;
  }
 
  a:hover{
-    color: lime;
+    color: red;
  }
  .sidebar {
     
    float: left;
     width: 220px;
-    margin: 3px auto;
+    margin-right: 5px;
     padding: 20px;
-    background: olive;
+    background: gray;
+
  }
-section {
-     padding: 10px;
-    background: brown;
-    float: left;
-    width: 660px;
-    margin: 20px;
+.section {
+   
+    background: white;
+    width: 800px;
+    margin: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
 }
 
 
-section article{
+.section-a{
     width: 500px;
     display: inline-block;
     background: #FFFBCC;
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
+
 }
-.parrafo{
-    color : white;
+.contenido{
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    background: pink;
+    color: white;
 }
 
-footer{
+
+.footer{
     background: orange;
     clear: both;
     text-align: center;
     padding: 20px;
     border-top: 2px solid #999999;
 }
-h1,h2{
-   
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 h1{color: teal;}
 h2{color: aqua;}
 

@@ -9,10 +9,8 @@ form{
     width: 600px;
     padding: 1em;
     margin: 20px;
-    background: beige;
-
-  
-	
+    background: transparent;
+    border: 1px solid gray;	
 }
 
 fieldset{
@@ -26,21 +24,25 @@ legend{
 	margin: 10px;
 	 padding: 1em;
 	color: red;
-
+	text-align: center;
 }
 
 label{
 	
 	color: gray;
+	margin: 7px;
+	
 }
 input{
 	width: 350px;
 	height: 40px;
 	border-radius: 10px;
 	border: 2px solid gray; 
+	margin: 5px;
+	
 }
 h1{
-	align-items: center;
+	text-align: center;
 	width: 400px;
 	height: 40px;
 	background: white;
