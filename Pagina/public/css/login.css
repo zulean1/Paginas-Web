@@ -5,12 +5,11 @@ body{
 }
 
 form{
-	
+	float: center;
     width: 600px;
     padding: 1em;
     margin: 20px;
-    background: transparent;
-    border: 1px solid gray;	
+    
 }
 
 fieldset{
@@ -43,12 +42,7 @@ input{
 }
 h1{
 	text-align: center;
-	width: 400px;
-	height: 40px;
-	background: white;
 	color: orange;
-	border-radius: 10px;
-	border: 2px solid gray;
-	margin: 1em;
-	padding: 0.5em;
+	
+	
 }

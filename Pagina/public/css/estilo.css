@@ -5,7 +5,7 @@
 
 .cabecera{
   
-    text-align: center;
+    text-align: left;
     border: 1px solid black;
     background: white;
     height: 70px;
@@ -23,6 +23,7 @@
  .nav .nav-ul .nav-items {
    
    display: inline-block;
+
 
  }
 
@@ -55,6 +56,7 @@ a{
 
 
 .section-a{
+
     width: 500px;
     display: inline-block;
     background: #FFFBCC;
