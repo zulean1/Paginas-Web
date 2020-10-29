@@ -17,25 +17,39 @@
 
    
     padding: 1em;
-    background: blue;
+    background:#F7F7E2;
 }
 
  nav{
     padding:0.5em; 
     margin-bottom: 0.5em;
-    border-bottom: 1px solid #004C99;
-    background: navy; 
+    border-bottom: 1px solid #5C475E;
+    background: #379B73; 
+    display: flex;
+    justify-content: flex-end;
+
     
 }
 
-nav ul li {
-   display: inline-block;
+ ul  {
+
+    display: flex;
+    list-style: none;
+    padding: 0.5em;
+
+    
+}
+
+ul li{
+  margin-left: 10px;
+ 
 }
 
 a{
-      list-style: none;
-       color: white;    
- }
+      color: white;  
+      text-decoration: none; 
+}
+
 
  a:hover{
     color: orange;
@@ -44,16 +58,17 @@ a{
 .centro{
     display: flex;
 
+
 }
 
 .columna {
     
-   float: left;
+ 
     width: 220px;
     margin: 3px auto;
     padding: 0.5em;
-    background-color: #F8F8F8;
-    border: 1px solid #C5C5C5;
+    background-color: #D47B7B;
+    border: 1px solid #AE4E4E;
  }
 
 .seccion {
@@ -63,6 +78,8 @@ a{
     width: 660px;
     margin: 20px;
     padding: 0.5em;
+    
+
 }
 
 
@@ -92,7 +109,7 @@ a{
    
 	clear: both;
     text-align: center;
-    background-color: #F8F8F8;
+    background-color: #825757;
     border-top: 1px solid #C5C5C5;
     border-bottom: 1px solid #C5C5C5;
     margin-top: 1em;
@@ -112,3 +129,4 @@ h1{
 
 color: orange ; 
 }
+
