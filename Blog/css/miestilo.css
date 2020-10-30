@@ -18,6 +18,7 @@
    
     padding: 1em;
     background:#F7F7E2;
+
 }
 
  nav{
@@ -41,13 +42,15 @@
 }
 
 ul li{
-  margin-left: 10px;
+  margin-left: 1em;
  
 }
 
 a{
-      color: white;  
+      color: white; 
       text-decoration: none; 
+      font-size: 1.3em; 
+     
 }
 
 
@@ -69,6 +72,12 @@ a{
     padding: 0.5em;
     background-color: #D47B7B;
     border: 1px solid #AE4E4E;
+ }
+
+ .columna p{
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 2em;
  }
 
 .seccion {
@@ -94,6 +103,11 @@ a{
 
 }
 
+.articulo h4{
+    font-size: 1.6em;
+    line-height: 1.2;
+}
+
 .acerca{
     
    float: left;
@@ -102,6 +116,14 @@ a{
     padding: 0.5em;
     border: 1px solid #CC6600;
    
+ }
+
+ .acerca p{
+  
+  line-height: 1.2;
+   text-align: justify;
+   font-size: 0.9em;
+
  }
 
 
@@ -117,16 +139,27 @@ a{
 }
 
 h1{
-	color: orange;
+	color: black;
+
 }
 
 .acerca h2{
     background-color: #DB905C;
     padding: .2em;
+    font-size: 1.6em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.acerca p{
+    font-size: 0.9em;
 }
 
 .articulo h4{ 
 
 color: orange ; 
+line-height: 1.2;
+text-align: justify;
+
 }
 
