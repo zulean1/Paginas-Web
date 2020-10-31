@@ -20,6 +20,13 @@
     background:#F7F7E2;
 
 }
+.cabecera{
+
+   
+    font-style: italic;
+    font-size: 1.6em;
+
+}
 
  nav{
     padding:0.5em; 
@@ -50,6 +57,7 @@ a{
       color: white; 
       text-decoration: none; 
       font-size: 1.3em; 
+      font-style: italic;
      
 }
 
@@ -161,5 +169,15 @@ color: orange ;
 line-height: 1.2;
 text-align: justify;
 
+
+}
+
+
+.normal {
+width: 250px;
+border-collapse: collapse;
+}
+.normal th, .normal td {
+border: 1px solid #000;
 }
 
