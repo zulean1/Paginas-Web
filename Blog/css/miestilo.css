@@ -20,6 +20,8 @@ body{
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
      box-sizing: border-box;
+    border-radius: 25px;
+    border: 1px solid gray;
 
 }
 
@@ -28,7 +30,7 @@ body{
    height: 100%;
    min-height: 50vh;
    background: linear-gradient(180deg, #62C0C3 35%, #E5F1EE 65%);
-   box-shadow: 
+    border-radius: inherit;
    
 }
 
@@ -37,7 +39,6 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     height: 160px;
-    border: 1px solid indigo;
    
 }
 .logo{
@@ -62,9 +63,8 @@ body{
 .nav{
     
     height: 70px;
-    border-bottom: 1px solid indigo;
-    border-left: 1px solid indigo;
-    border-right: 1px solid indigo;
+    border: 1px solid indigo;
+    border-radius: inherit;
 
 }
 
