@@ -11,6 +11,7 @@
 	display: grid;
 	grid-template-columns: 25%  25% 25% 25%;
 	grid-template-rows: 1fr  1fr 1fr 1fr; 
+	align-items: center;
 }
 
 [class^="item"]{
