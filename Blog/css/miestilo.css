@@ -57,7 +57,8 @@ body{
     font-family: inherit;
     padding: 30px 25px;
     position: relative;
-    top: 70px;
+    text-align: center;
+    top: 90px;
 
 }
 .nav{
