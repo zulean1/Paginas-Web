@@ -121,3 +121,9 @@ body{
    background: #E24A22;
    color: white;
 }
+
+.lista3 div:only-child{
+	background: #F52A07;
+	color: white;
+	border-radius: 5px;
+}
