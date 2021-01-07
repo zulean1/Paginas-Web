@@ -108,7 +108,7 @@ body{
    list-style-type: none;
 }
 
-.lista :nth-child(even)  {
+.lista :nth-child(4n)  {
   background: #EE1E3B;
   color: white;
 }
