@@ -1,0 +1,64 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 15px 0;
+	height: auto;
+	background: beige ;
+	border: 2px solid gray;
+	border-radius: 10px;
+
+}
+
+.menu{
+	width: 70%;
+	max-width: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 30px 0;
+	height: inherit;
+	background: white;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.logo{
+	text-align: center;
+	font-size: 42px;
+	color: #681660;
+}
+
+.grupo{
+	width: 150px;
+	height: auto;
+	background: orange;
+	padding: 5px;
+	margin: 5px;
+}
+
+/* hacer click */
+.enlace:active{
+	background: white;
+	color: pink;
+}
+
+/* sitio aun no visitado */
+.enlace:link{
+
+	color: aqua;
+}
+.enlace:visited{
+ 
+   color: red;
+}
+
+.enlace:hover{
+	background: gray;
+	color: green;
+}
