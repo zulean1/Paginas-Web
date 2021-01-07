@@ -62,3 +62,19 @@ body{
 	background: gray;
 	color: green;
 }
+
+.parrafo{
+	background: indigo;
+	color: white;
+}
+
+.parrafo:first-child{
+	background: green;
+	color: white;
+}
+
+.parrafo:last-child{
+	background: purple;
+	color: white;
+}
+
