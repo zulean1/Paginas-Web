@@ -171,3 +171,8 @@ border: white;
 	background: #C04343;
 	border: none;
 }
+
+.mensaje:required{
+	background: pink;
+
+}
