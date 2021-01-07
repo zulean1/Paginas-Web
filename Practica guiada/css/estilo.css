@@ -11,7 +11,6 @@ body{
 	padding: 15px 0;
 	height: auto;
 	background: beige ;
-	border: 2px solid gray;
 	border-radius: 10px;
 
 }
@@ -24,8 +23,8 @@ body{
 	padding: 30px 0;
 	height: inherit;
 	background: white;
-	border: 1px solid black;
 	border-radius: 10px;
+	padding: 8px;
 }
 
 .logo{
@@ -35,11 +34,11 @@ body{
 }
 
 .grupo{
-	width: 150px;
-	height: auto;
-	background: orange;
+
+	background: beige;
 	padding: 5px;
 	margin: 5px;
+	border-radius: 5px;
 }
 
 /* hacer click */
@@ -66,6 +65,9 @@ body{
 .parrafo{
 	background: indigo;
 	color: white;
+	border-radius: 5px;
+	padding: 3px;
+
 }
 
 .parrafo:first-child{
@@ -78,3 +80,26 @@ body{
 	color: white;
 }
 
+.elementos p:first-of-type{
+	background: #578699;
+	color: white;
+	border-radius: 5px;
+	padding: 3px;
+
+}
+
+.elementos p:last-of-type{
+	background: #9FCFBC;
+	color: white;
+	border-radius: 5px;
+	padding: 3px;
+
+}
+
+.elementos div:last-of-type{
+	background: #3DDF72;
+	color: white;
+	border-radius: 5px;
+	padding: 3px;
+
+}
