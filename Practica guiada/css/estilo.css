@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-	width: 90%;
+    width: 90%;
 	max-width: 1000px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -133,6 +133,13 @@ body{
 	border-radius: 10px;
 }
 
+.titulo{
+	font-size: 36px;
+	font-weight: 700;
+	color: #561D5C;
+	text-align: center;
+}
+
 label{
 	padding: 3px;
 	margin: 3px;
@@ -147,9 +154,6 @@ label{
 
 }
 
-.titulo{
-	font-size: 36px;
-	font-weight: 700;
-	color: #561D5C;
-	text-align: center;
+.nombre:focus{
+   border: 2px solid orange;
 }
