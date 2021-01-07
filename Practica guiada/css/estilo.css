@@ -127,3 +127,29 @@ body{
 	color: white;
 	border-radius: 5px;
 }
+.form{
+	background: white;
+	border: 2px solid #EC4106;
+	border-radius: 10px;
+}
+
+label{
+	padding: 3px;
+	margin: 3px;
+	color: #E02727;
+}
+
+.input{
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid gray;
+
+}
+
+.titulo{
+	font-size: 36px;
+	font-weight: 700;
+	color: #561D5C;
+	text-align: center;
+}

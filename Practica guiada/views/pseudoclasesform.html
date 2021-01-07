@@ -7,21 +7,30 @@
 </head>
 <body>
 
-    <form class="form">
+    <form class="container form">
+    	<h2 class="titulo">Pseudoclases en Formularios</h2>
     	<div class="grupo">
-    		
+    		<label>:focus</label>
+    		<input class="input nombre" type="text" name="name" placeholder="Nombre">
     	</div>
     	<div class="grupo">
-    		
+    		<label>:disabled</label>
+    		<input class="input id" type="text"  placeholder="Id: 1" disabled>
     	</div>
     	<div class="grupo">
-    		
+    		<label>:valid / :invalid</label>
+    		<input class="input correo" type="email" placeholder="correo@correo.com" value="correo">
     	</div>
     	<div class="grupo">
-    		
+    		<label>:required</label>
+    		<input class="input mensaje" type="text"  placeholder="Mensaje" value="Hola" required>
     	</div>
     	<div class="grupo">
-    		
+    		<label  >:cheked</label> 
+    		<div class="radio">
+    			<input type="radio" name="">
+    			<input type="radio" name="">
+    		</div>
     	</div>
 
     </form>
