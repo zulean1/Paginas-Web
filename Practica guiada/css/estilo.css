@@ -157,3 +157,7 @@ label{
 .nombre:focus{
    border: 2px solid orange;
 }
+
+.id:disabled{
+	background: #D0BFBF;
+}
