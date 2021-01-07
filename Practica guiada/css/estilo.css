@@ -108,7 +108,16 @@ body{
    list-style-type: none;
 }
 
-.lista :nth-child(4)  {
+.lista :nth-child(odd)  {
   background: #EE1E3B;
   color: white;
+}
+
+.lista2{
+	list-style-type: none;
+}
+
+.lista2 span:nth-of-type(2){
+   background: #E24A22;
+   color: white;
 }
