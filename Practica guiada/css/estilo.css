@@ -108,7 +108,7 @@ body{
    list-style-type: none;
 }
 
-.lista :nth-child(odd)  {
+.lista :nth-child(even)  {
   background: #EE1E3B;
   color: white;
 }
