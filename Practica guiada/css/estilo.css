@@ -80,6 +80,11 @@ body{
 	color: white;
 }
 
+.parrafo:first-line{
+	background: black;
+	color: white;
+}
+
 .elementos p:first-of-type{
 	background: #578699;
 	color: white;
