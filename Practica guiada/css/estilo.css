@@ -80,9 +80,8 @@ body{
 	color: white;
 }
 
-.parrafo:first-line{
-	background: black;
-	color: white;
+.parrafo:first-letter{
+
 }
 
 .elementos p:first-of-type{
