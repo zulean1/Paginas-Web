@@ -11,7 +11,14 @@ body{
 	border: 1px solid red;
 	background: #D8461D;
 	border-radius: 10px;
+	display: block;
 
+
+}
+
+.caja:last-child{
+  border: 1px solid green;
+	background:#10E68E;
 }
 
 h2{
