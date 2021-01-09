@@ -1,0 +1,22 @@
+body{
+	font-family: 'Roboto', Arial sans-serif;
+	
+}
+
+.caja{
+	width: 400px;
+	height: 400px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid red;
+	background: #D8461D;
+	border-radius: 10px;
+
+}
+
+h2{
+	color: white;
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+}
