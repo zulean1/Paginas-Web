@@ -24,7 +24,7 @@
   background: #5C2759;
  /* grid-column-start: 1;
   grid-column-end: 5;*/
-  grid-column: 1 / 5;
+  grid-column: span 5;/* span singinifica: avanza cinco lineas*/
   grid-row: 1 / 2;
  
 }
