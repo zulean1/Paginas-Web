@@ -25,7 +25,7 @@
 
     text-align: center;
     padding: 2.5em;
-    color: white;
+    color: #3C3040;
     font-style: italic;
     font-weight: bold;
     
@@ -47,7 +47,6 @@
    
 
  
-       color: white;
        margin: 2px;
        padding: 1em;
        border-right: 2px solid gray;
@@ -55,17 +54,18 @@
 
  }
 
- .nav-items:hover {
-   
-       color: white;
+ .link__active:hover {
+
        margin: 2px;
        padding: 1em;
-       background: indigo;
+       background: white;
+       color: #3C3040;
 
  }
 
  .link__active{
-    color: #283E51;
+    color: white;
+    font-size: 20px;
        font-style: italic;
        text-decoration: none;
        font-weight: lighter;
