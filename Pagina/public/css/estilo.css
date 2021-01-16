@@ -1,13 +1,19 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: content-box;
 
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
 }
 
 .cabecera{
   
     border-bottom: 1px solid beige;
-    background: #17D668;
+    background: #CCCED8;
     height: 200px;
     display: flex;
     justify-content: space-between;
@@ -15,7 +21,7 @@
 
 
 
-.cabecera .titulo{
+.cabecera-titulo{
 
     text-align: center;
     padding: 2.5em;
@@ -25,12 +31,10 @@
     
 
 }
-.content{
-    display: flex;
-}
+
  .nav .nav-ul{ 
     border-bottom: 1px solid beige;
-    background: white;
+    background: #FA5873;
     padding: 0.5em;
     height: 40px;
     display: flex;
@@ -60,10 +64,18 @@
 
  }
 
- a{
+ .link__active{
+    color: #283E51;
        font-style: italic;
        text-decoration: none;
        font-weight: lighter;
+     
+ }
+
+
+ .link__active:visited {
+    
+      color: black;
      
  }
 
