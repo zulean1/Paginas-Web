@@ -76,7 +76,7 @@
 
 .productos{
   
-    background: white;
+    background: white ;
 }
 
 .container_card{
@@ -183,10 +183,8 @@
 }
 
 
-
-
 .footer{
-    background: orange;
+    background: #B04848;
     clear: both;
     text-align: center;
     padding: 20px;
