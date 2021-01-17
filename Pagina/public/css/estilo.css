@@ -4,8 +4,9 @@
  }
 
 .content{
-height: 100vh;
- width: 100%;
+   width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
 
 }
 
@@ -28,7 +29,8 @@ height: 100vh;
  .nav .nav-ul{
   border-bottom: 1px solid beige;
   background: #FA5873;
-  padding: 0.5em; height: 40px;
+  padding: 0.5em; 
+  height: 40px;
   display: flex;
   justify-content: center;
   list-style: none;
@@ -60,9 +62,8 @@ height: 100vh;
 }
 
 .menu{
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+  width: 100%;
+  
 }
 
 .subtitulo{
@@ -70,11 +71,12 @@ height: 100vh;
     font-size: 30px;
     font-weight: 300;
     color: #DC0D15;
+
 }
 
 .productos{
-    padding: 0;
-    background: beige;
+  
+    background: white;
 }
 
 .container_card{
@@ -82,7 +84,7 @@ height: 100vh;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 10px;
-    padding: 10px
+    padding: 10px;
 }
 
 .card{
@@ -91,36 +93,95 @@ height: 100vh;
    height: 400px;;
    background: #C2EBEB;
    border-radius: 10px;
-   
-
 }
-
 .card__text{
-  
+
     width: inherit;
     height: 50px;
     background: white;
     color: #143499;
     text-align: center;
+     border-radius: 10px;
+
 
 }
-
-.card_img{
-    width: inherit;
-    height: inherit;
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
 
 .img{
     border-radius: inherit;
     border: inherit;
     width: 200px;
     height: 200px;
+    margin-top: 20px;
 }
+.card__text--modifier{
+    font-size: 20px;
+    font-weight: 300px;
+    color: black;
+     padding: 5px;
+}
+
+.button{
+   
+    width: 100px;
+    height:100px;
+     padding: 5px;
+    margin: 5px;
+    background: #ED2020;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.noticias {
+    background: beige;
+   
+
+}
+.noticias__modifier{
+     display: flex;
+    justify-content:space-between;
+}
+
+.articulo{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.articulo_modifier{
+    display: block;
+}
+
+.card__modifier{
+    width: 700px;
+    height: auto;
+    background: #A43074;
+}
+
+.parrafo{
+    padding: 5px;
+    color: #163514;
+}
+
+.sidebar{
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: #9CF4AA;
+
+}
+
+.sidebar__info{
+  padding: 5px;
+  margin: 5px;
+}
+.sidebar__text{
+    text-align: center;
+    color: #210D0D;
+}
+
 
 
 
@@ -134,9 +195,3 @@ height: 100vh;
 }
 
 
-p{
-    color: #8A8E27;
-font-weight: normal;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 2ex;
-}
