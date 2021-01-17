@@ -220,6 +220,7 @@
 }
 
 .container_card .contactos{
+
     width: 60%;
     margin-right: 20%;
     margin-left: 20%;
@@ -252,12 +253,40 @@
 }
 
 .footer{
+    height: 250px;
     background: #B04848;
     clear: both;
-    text-align: center;
     padding: 20px;
     border-top: 2px solid #999999;
 
+}
+
+.lema{
+   
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+.lema_text{
+    color:white;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.derechos{
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+
+}
+.derechos__text{
+    color: orange;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
 }
 
 
