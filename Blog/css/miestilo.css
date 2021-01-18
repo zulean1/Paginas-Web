@@ -87,6 +87,66 @@ body{
     color: #801924;
 }
 
+.container{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.subtitulo{
+  color: #472319;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 5px;
+  padding: 5px;
+}
+
+.content_main{
+ 
+  width: 500px;
+}
+
+.main_services{
+  width: 500px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.articulos{
+  background: beige;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  padding: 3px;
+  margin-right: 2px;
+  height: 150px;
+}
+.card_text{
+    margin: 2px;
+    padding: 3px;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    color: indigo;
+
+}
+.parrafo{
+  margin: 2px;
+  padding: 3px;
+  color: black;
+  text-align: justify;
+}
+.sidebar{
+  width: 200px;
+   background: linear-gradient(180deg, #62C0C3 35%, #E5F1EE 65%);
+}
+
 
 
 
