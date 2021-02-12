@@ -145,9 +145,19 @@ body{
 }
 .sidebar{
   width: 200px;
-   background: linear-gradient(180deg, #62C0C3 35%, #E5F1EE 65%);
-}
+   background: #34C2E8;
 
+}
+.contact{
+    display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+  
+}
+.footer{
+  height: 200px;
+  background: #3C475F;
+}
 
 
 
